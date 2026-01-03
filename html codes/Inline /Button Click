@@ -1,0 +1,6 @@
+<button onclick="msg()">Click</button>
+<script>
+function msg() {
+  document.write("Button Clicked");
+}
+</script>
