@@ -1,0 +1,14 @@
+Calculator
+
+<input id="a">
+<input id="b">
+<button onclick="add()">Add</button>
+<p id="r"></p>
+
+<script>
+function add(){
+  let x = Number(a.value);
+  let y = Number(b.value);
+  r.innerHTML = x + y;
+}
+</script>
