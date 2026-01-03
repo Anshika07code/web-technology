@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="showMsg()">Click Me</button>
+
+<script>
+function showMsg() {
+    alert("Hello from JavaScript!");
+}
+</script>
+</body>
+</html>
