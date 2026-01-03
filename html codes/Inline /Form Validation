@@ -1,0 +1,13 @@
+<script>
+function check() {
+  if (document.f1.name.value == "") {
+    alert("Empty Field");
+    return false;
+  }
+}
+</script>
+
+<form name="f1" onsubmit="return check()">
+<input name="name">
+<input type="submit">
+</form>
