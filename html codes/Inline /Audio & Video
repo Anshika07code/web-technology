@@ -1,0 +1,7 @@
+<audio controls>
+    <source src="song.mp3">
+</audio>
+
+<video width="300" controls>
+    <source src="video.mp4">
+</video>
