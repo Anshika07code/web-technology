@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Advanced HTML features demo" />
+  <title>Advanced HTML Demo</title>
+
+  <!-- Preload critical asset -->
+  <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+
+  <style>
+    :root { --accent:#4f46e5; }
+    body { font-family: system-ui, sans-serif; margin:0; line-height:1.6; }
+    header, footer { background:#111827; color:#fff; padding:1rem; }
+    main { padding:1.25rem; display:grid; gap:1.25rem; }
+    nav a { color:#e5e7eb; margin-right:1rem; text-decoration:none; }
+    section { border:1px solid #e5e7eb; border-radius:12px; padding:1rem; }
+    button { background:var(--accent); color:#fff; border:0; padding:.6rem 1rem; border-radius:10px; cursor:pointer; }
+    dialog { border-radius:12px; border:0; padding:1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Advanced HTML (No Frameworks)</h1>
+  <nav aria-label="Primary">
+    <a href="#semantic">Semantic</a>
+    <a href="#media">Media</a>
+    <a href="#form">Forms</a>
+    <a href="#interactive">Interactive</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Semantic Layout -->
+  <section id="semantic">
+    <article>
+      <header>
+        <h2>Semantic HTML</h2>
+        <p><time datetime="2026-01-03">Jan 3, 2026</time></p>
+      </header>
+      <p>Uses <strong>&lt;header&gt;</strong>, <strong>&lt;nav&gt;</strong>, <strong>&lt;main&gt;</strong>, <strong>&lt;section&gt;</strong>, <strong>&lt;article&gt;</strong>, and <strong>&lt;footer&gt;</strong>.</p>
+      <f
