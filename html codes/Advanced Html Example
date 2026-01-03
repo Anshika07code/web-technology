@@ -42,4 +42,112 @@
         <p><time datetime="2026-01-03">Jan 3, 2026</time></p>
       </header>
       <p>Uses <strong>&lt;header&gt;</strong>, <strong>&lt;nav&gt;</strong>, <strong>&lt;main&gt;</strong>, <strong>&lt;section&gt;</strong>, <strong>&lt;article&gt;</strong>, and <strong>&lt;footer&gt;</strong>.</p>
-      <f
+      <footer>
+<small>Author: Web Tech</small>
+</footer>
+</article>
+</section>
+
+
+<!-- Media + SVG -->
+<section id="media">
+<h2>Media & SVG</h2>
+<figure>
+<svg width="120" height="120" role="img" aria-label="Gradient circle">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#22d3ee" />
+<stop offset="100%" stop-color="#6366f1" />
+</linearGradient>
+</defs>
+<circle cx="60" cy="60" r="50" fill="url(#g)" />
+</svg>
+<figcaption>Inline SVG (accessible)</figcaption>
+</figure>
+
+
+<video controls width="280" preload="metadata">
+<source src="sample.mp4" type="video/mp4" />
+<track kind="captions" src="captions.vtt" srclang="en" label="English" />
+Your browser does not support video.
+</video>
+</section>
+
+
+<!-- Advanced Form -->
+<section id="form">
+<h2>Advanced Form</h2>
+<form autocomplete="on">
+<label>
+Email
+<input type="email" name="email" required placeholder="name@example.com" />
+</label>
+<br /><br />
+<label>
+Password
+<input type="password" minlength="8" required />
+</label>
+<br /><br />
+<label>
+Skills
+<input list="skills" name="skill" />
+<datalist id="skills">
+<option value="HTML"></option>
+<option value="CSS"></option>"280" preload="metadata">
+<source src="sample.mp4" type="video/mp4" />
+<track kind="captions" src="captions.vtt" srclang="en" label="English" />
+Your browser does not support video.
+</video>
+</section>
+
+
+<!-- Advanced Form -->
+<section id="form">
+<h2>Advanced Form</h2>
+<form autocomplete="on">
+<label>
+Email
+<input type="email" name="email" required placeholder="name@example.com" />
+</label>
+<br /><br />
+<label>
+Password
+<input type="password" minlength="8" required />
+</label>
+<br /><br />
+<label>
+Skills
+<input list="skills" name="skill" />
+<datalist id="skills">
+<option value="HTML"></option>
+<option value="CSS"></option>
+<br />
+<button id="open">Open Dialog</button>
+<dialog id="dlg">
+<p>This is a native HTML dialog.</p>
+<button id="close">Close</button>
+</dialog>
+
+
+<!-- Template element -->
+<template id="cardTpl">
+<div class="card">Template Content</div>
+</template>
+</section>
+
+
+</main>
+
+
+<footer>
+<small>&copy; 2026 Advanced HTML Demo</small>
+</footer>
+
+
+<script>
+const dlg = document.getElementById('dlg');
+document.getElementById('open').onclick = () => dlg.showModal();
+document.getElementById('close').onclick = () => dlg.close();
+</script>
+</body>
+</html>
