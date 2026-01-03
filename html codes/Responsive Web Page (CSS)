@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    width: 100%;
+    padding: 20px;
+    background: lightgray;
+}
+@media (max-width: 600px) {
+    .container {
+        background: orange;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    Responsive Web Design
+</div>
+</body>
+</html>
