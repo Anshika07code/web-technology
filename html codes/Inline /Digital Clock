@@ -1,0 +1,6 @@
+<p id="clock"></p>
+<script>
+setInterval(()=>{
+  clock.innerHTML = new Date().toLocaleTimeString();
+},1000);
+</script>
