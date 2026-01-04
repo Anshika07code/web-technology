@@ -1,0 +1,3 @@
+$file = fopen("data.txt", "w");
+fwrite($file, "PHP File Handling");
+fclose($file);
