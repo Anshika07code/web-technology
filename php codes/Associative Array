@@ -1,0 +1,2 @@
+$student = array("name" => "Ram", "age" => 21);
+echo $student["name"];
