@@ -1,0 +1,4 @@
+$name = "Anshika";
+$age = 20;
+$isStudent = true;
+echo "Name: $name, Age: $age";
