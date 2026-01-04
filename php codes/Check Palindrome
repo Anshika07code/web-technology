@@ -1,0 +1,2 @@
+$s = "madam";
+if ($s == strrev($s)) echo "Palindrome"; else echo "Not Palindrome";
