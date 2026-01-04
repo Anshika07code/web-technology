@@ -1,0 +1,12 @@
+public $name;
+function setName($name) {
+$this->name = $name;
+}
+function getName() {
+return $this->name;
+}
+}
+$person = new Person();
+$person->setName("Sita");
+echo $person->getName();
+?>
