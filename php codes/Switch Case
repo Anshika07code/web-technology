@@ -1,0 +1,6 @@
+$day = "Monday";
+switch ($day) {
+case "Monday": echo "Start of week"; break;
+case "Friday": echo "Weekend soon"; break;
+default: echo "Regular day";
+}
