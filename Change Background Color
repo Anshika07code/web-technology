@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="document.body.style.background='lightblue'">Change Color</button>
+</body>
+</html>
