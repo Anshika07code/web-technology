@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="age" placeholder="Age">
+<button onclick="out.innerHTML=age.value>=18?'Adult':'Minor'">Check</button>
+<p id="out"></p>
+</body>
+</html>
