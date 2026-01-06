@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+Name:<input id="n"><br>
+Marks:<input id="m"><br>
+<button onclick="res()">Result</button>
+<p id="o"></p>
+<script>
+function res(){o.innerHTML = m.value>=40?'Pass':'Fail';}
+</script>
+</body>
+</html>
