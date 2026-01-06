@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="d.innerHTML=new Date()">Date</button>
+<p id="d"></p>
+</body>
+</html>
