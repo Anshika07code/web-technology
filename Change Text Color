@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="p">Text</p>
+<button onclick="p.style.color='red'">Red</button>
+</body>
+</html>
