@@ -1,0 +1,7 @@
+<p id="demo">Hello</p>
+<button onclick="change()">Change</button>
+<script>
+function change() {
+  document.getElementById("demo").innerHTML = "Welcome";
+}
+</script>
