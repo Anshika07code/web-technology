@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #fef6e4;
+  text-align: center;
+  font-size: 40px;
+}
+span {
+  cursor: pointer;
+  margin: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2>How are you feeling?</h2>
+<span onclick="mood('😊 Happy')">😊</span>
+<span onclick="mood('😴 Sleepy')">😴</span>
+<span onclick="mood('😢 Sad')">😢</span>
+
+<p id="result"></p>
+
+<script>
+function mood(text) {
+  result.innerText = "You are " + text;
+}
+</script>
+
+</body>
+</html>
