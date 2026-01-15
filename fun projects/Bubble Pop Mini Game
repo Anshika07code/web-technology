@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #e0f7fa;
+  overflow: hidden;
+}
+.bubble {
+  width: 60px;
+  height: 60px;
+  background: pink;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<script>
+for (let i = 0; i < 10; i++) {
+  let b = document.createElement("div");
+  b.className = "bubble";
+  b.style.left = Math.random() * 90 + "vw";
+  b.style.top = Math.random() * 90 + "vh";
+  b.onclick = () => b.remove();
+  document.body.appendChild(b);
+}
+</script>
+
+</body>
+</html>
