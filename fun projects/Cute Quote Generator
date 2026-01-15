@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #e0f7fa;
+  text-align: center;
+  font-family: cursive;
+}
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  margin: 60px auto;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <p id="quote">Click for a smile 🌼</p>
+  <button onclick="gen()">Generate</button>
+</div>
+
+<script>
+let q = [
+ "You are doing great 💖",
+ "Smile, it suits you 😊",
+ "Today is your day 🌸"
+];
+
+function gen() {
+  quote.innerText = q[Math.floor(Math.random() * q.length)];
+}
+</script>
+
+</body>
+</html>
