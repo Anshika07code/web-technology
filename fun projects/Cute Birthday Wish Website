@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #fff3cd;
+  text-align: center;
+  font-family: cursive;
+}
+.card {
+  background: white;
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+button {
+  background: #ffb347;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>🎉 Birthday Surprise</h2>
+  <p id="msg">Click the button 🎁</p>
+  <button onclick="wish()">Open</button>
+</div>
+
+<script>
+function wish() {
+  msg.innerText = "Happy Birthday! 🎂💖 Stay cute & happy 🌸";
+}
+</script>
+
+</body>
+</html>
