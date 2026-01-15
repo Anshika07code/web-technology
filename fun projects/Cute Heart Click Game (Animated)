@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #ffe4e1;
+  text-align: center;
+  font-family: sans-serif;
+}
+#heart {
+  font-size: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+#heart:active {
+  transform: scale(1.3);
+}
+</style>
+</head>
+<body>
+
+<h2>💗 Heart Click Game</h2>
+<div id="heart" onclick="add()">💖</div>
+<h3>Score: <span id="score">0</span></h3>
+
+<script>
+let s = 0;
+function add() {
+  score.innerText = ++s;
+}
+</script>
+
+</body>
+</html>
