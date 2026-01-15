@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  background: #ffe6f0;
+  text-align: center;
+}
+.box {
+  background: white;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+button {
+  background: #ff85a2;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+  background: #ffd1dc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <h2>🌸 My To-Do</h2>
+  <input id="task">
+  <button onclick="add()">Add</button>
+  <ul id="list"></ul>
+</div>
+
+<script>
+function add() {
+  let li = document.createElement("li");
+  li.innerText = task.value;
+  list.appendChild(li);
+  task.value = "";
+}
+</script>
+
+</body>
+</html>
