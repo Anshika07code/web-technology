@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+  <input id="user" placeholder="Username"><br><br>
+  <input id="pass" type="password" placeholder="Password"><br><br>
+  <button onclick="login()">Login</button>
+  <p id="msg"></p>
+
+  <script>
+    function login() {
+      const u = user.value;
+      const p = pass.value;
+      msg.innerText = (u === "admin" && p === "1234")
+        ? "Login Successful"
+        : "Invalid Credentials";
+    }
+  </script>
+</body>
+</html>
 
