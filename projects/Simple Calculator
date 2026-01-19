@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input id="display" disabled>
+  <div class="keys">
+    <button onclick="add('1')">1</button>
+    <button onclick="add('2')">2</button>
+    <button onclick="add('+')">+</button>
+    <button onclick="calculate()">=</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
