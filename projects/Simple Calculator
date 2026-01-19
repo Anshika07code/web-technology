@@ -21,3 +21,5 @@ body { text-align: center; }
 button { padding: 20px; margin: 5px; }
 #display { width: 150px; height: 30px; }
 
+##script.js
+
